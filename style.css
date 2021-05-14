@@ -21,7 +21,11 @@
     flex: 0.9 1;
     border: 2px solid;
     margin-left: 60px;
-    
+    background-image: url(./logo/logo.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
 }
 .music {
     border: 2px solid;
