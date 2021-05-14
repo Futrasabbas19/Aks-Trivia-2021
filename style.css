@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#left{
+    flex: 1.1 1;
+    font-size: 64px;
+    background-color: #292a2d;
+    color: #64b5f6;
+    height: 100vh;
+    padding: 13% 3%;
+    border: 2px solid ;
+}
+#right{
+    flex: 0.9 1;
+    border: 2px solid;
+    margin-left: 60px;
+    
+}
+.music {
+    border: 2px solid;
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.welcome{
+    margin-top: 20%;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.trivia{
+    font-size: 45px;
+}
